@@ -1,0 +1,10 @@
+# 项目排除路径
+/.gradle/
+/shop-common/build/
+/shop-common/build/classes/java/main/
+/shop-order/build/
+/shop-order/build/classes/java/main/
+/shop-product/build/
+/shop-product/build/classes/java/main/
+/shop-user/build/
+/shop-user/build/classes/java/main/

@@ -1,0 +1,5 @@
+rootProject.name = 'boot3-alibaba-cloud'
+include 'shop-common'
+include 'shop-order'
+include 'shop-product'
+include 'shop-user'
