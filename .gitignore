@@ -8,6 +8,8 @@
 /shop-product/build/classes/java/main/
 /shop-user/build/
 /shop-user/build/classes/java/main/
+/shop-gateway/build/
+/shop-sms/build/
 # Logs
 logs
 *.log
