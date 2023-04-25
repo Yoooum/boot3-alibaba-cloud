@@ -8,4 +8,5 @@ import com.prprv.common.entity.Order;
 public interface OrderService {
     void save(Order order);
 
+    void message();
 }

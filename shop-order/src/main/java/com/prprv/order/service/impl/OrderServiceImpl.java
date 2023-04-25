@@ -1,5 +1,6 @@
 package com.prprv.order.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.prprv.common.entity.Order;
 import com.prprv.order.repo.OrderRepository;
 import com.prprv.order.service.OrderService;
@@ -19,5 +20,11 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public void save(Order order) {
         orderRepository.save(order);
+    }
+
+    @Override
+    @SentinelResource("message")
+    public void message() {
+        System.out.println("message");
     }
 }

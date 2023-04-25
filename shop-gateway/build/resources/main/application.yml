@@ -1,0 +1,13 @@
+server:
+  port: 57000
+spring:
+  application:
+    name: shop-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true

@@ -1,30 +1,21 @@
 server:
-  port: 60030
+  port: 60060
 spring:
   application:
-    name: shop-user
+    name: shop-sms
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cloud_alibaba?serverTimezone=Asia/Shanghai
     username: root
     password: 123456
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-    loadbalancer:
-      nacos:
-        enabled: true
-    sentinel:
-      transport:
-        dashboard: localhost:9110
-      web-context-unify: false
   rabbitmq:
     host: localhost
     port: 5672
     username: user
     password: password
-feign:
-  sentinel:
-    enabled: true
+
+sms:
+  secretId: AKIDEI8i3FBsKWTAbnlTw97pHUTDhvud6KI2
+  secretKey: WoreBSUIrAD0XprdCVYMuCE1YrRlqhJf
+
 
