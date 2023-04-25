@@ -26,7 +26,7 @@ public class SmsApplication {
     public static void sendSms(String phoneNumber, String message) {
 
         try {
-            Credential cred = new Credential("AKIDEI8i3FBsKWTAbnlTw97pHUTDhvud6KI2", "WoreBSUIrAD0XprdCVYMuCE1YrRlqhJf");
+            Credential cred = new Credential("", "");
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint("sms.tencentcloudapi.com");
             ClientProfile clientProfile = new ClientProfile();

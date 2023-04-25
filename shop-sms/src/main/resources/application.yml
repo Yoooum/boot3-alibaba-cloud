@@ -15,7 +15,7 @@ spring:
     password: password
 
 sms:
-  secretId: AKIDEI8i3FBsKWTAbnlTw97pHUTDhvud6KI2
-  secretKey: WoreBSUIrAD0XprdCVYMuCE1YrRlqhJf
+  secretId: secretId
+  secretKey: secretKey
 
 
